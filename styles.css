@@ -26,7 +26,7 @@ h1, h2, h3, h4 {
   line-height: 1.2;
   margin: 0
 }
-a {
+ a {/* ALL */
   text-decoration: none;
   color: inherit
 }
@@ -87,7 +87,7 @@ button {
   content: "♥"
   /* navbar heart */
 }
-.red {
+.red { /* ALL */
   color: var(--red)
 }
 
@@ -128,7 +128,7 @@ button {
   font-size: 13px;
   font-weight: 800
 }
-.mobile-nav {
+.mobile-nav { /*Angel*/
   display: none;
 }
 /* Home page hero */
@@ -324,7 +324,7 @@ button {
 .stat small {
   color: var(--muted)
 }
-section.block {
+section.block { /*Angel*/
   padding: 70px 0
 }
 .offwhite {
@@ -339,23 +339,23 @@ section.block {
 .section-head h2 {/*ALL*/
   font-size: 28px
 }
-.section-head p {/*Dhruv*/
+.section-head p {/*ALL*/
   margin: 7px 0 0;
   color: var(--muted)
 }
-.text-link {/*Dhruv*/
+.text-link {/*ALL*/
   color: var(--red);
   font-weight: 800;
   font-size: 13px
 }
-.card {/*Dhruv*/
+.card {/*ALL*/
   background: #fff;
   border: 1px solid #edf1f5;
   border-radius: var(--radius);
   padding: 20px;
   box-shadow: 0 2px 8px #0f172a05
 }
-.card:hover {/*Dhruv*/
+.card:hover {/*ALL*/
   box-shadow: 0 14px 35px #c41e3a12;
   transform: translateY(-2px)
 }
@@ -364,7 +364,7 @@ section.block {
   grid-template-columns: repeat(3,1fr);
   gap: 16px
 }
-.request-card.critical {
+.request-card.critical {/*Angel*/
   background: #fff7f7;
   border-color: #fecaca
 }
@@ -373,7 +373,7 @@ section.block {
   justify-content: space-between;
   gap: 12px
 }
-.blood {/*Dhruv*/
+.blood {/*ALL*/
   font: 800 13px "Plus Jakarta Sans";
   letter-spacing: .04em;
   color: #fff;
@@ -405,11 +405,11 @@ section.block {
   font-size: 14px;
   margin: 9px 0 3px
 }
-.muted {
+.muted {/*Angel*/
   color: var(--muted);
   font-size: 13px
 }
-.metadata {
+.metadata {/*Angel*/
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -451,7 +451,7 @@ section.block {
   display: flex;
   gap: 14px
 }
-.feature-icon {
+.feature-icon { /*Angel*/
   width: 42px;
   height: 42px;
   flex: 0 0 42px;
@@ -471,7 +471,7 @@ section.block {
   color: var(--muted);
   font-size: 13px
 }
-.avatar {
+.avatar {/*Angel*/
   width: 44px;
   height: 44px;
   object-fit: cover;
@@ -599,7 +599,7 @@ section.block {
   font-weight: 800;
   cursor: pointer
 }
-.group-choice input, .urgency input, .switch input {
+.group-choice input, .urgency input, .switch input {/*Angel*/
   position: absolute;
   opacity: 0
 }
@@ -646,13 +646,13 @@ section.block {
   background: var(--red);
   border-radius: 50%
 }
-.form-actions {
+.form-actions {/*Angel*/
   display: flex;
   justify-content: space-between;
   gap: 12px;
   padding-top: 22px
 }
-.notice {
+.notice {/*Angel*/
   display: flex;
   gap: 10px;
   background: #fff1f2;
@@ -707,20 +707,20 @@ section.block {
   font-size: 13px;
   font-weight: 700
 }
-.chip.active {
+.chip.active { /*Angel*/
   background: var(--red);
   border-color: var(--red);
   color: #fff
 }
-.donor-card {
+.donor-card {/*Angel*/
   display: grid;
   gap: 15px
 }
-.donor-head {
+.donor-head {/*Angel*/
   display: flex;
   gap: 12px
 }
-.donor-head .avatar {
+.donor-head .avatar {/*Angel*/
   width: 54px;
   height: 54px
 }
@@ -731,12 +731,12 @@ section.block {
   align-items: start;
   flex: 1
 }
-.verified {/*Dhruv*/
+.verified {/*ALL*/
   font-size: 11px;
   color: var(--green);
   font-weight: 800
 }
-.status {
+.status {/*Angel*/
   font-size: 11px;
   background: #dcfce7;
   color: #166534;
@@ -839,11 +839,11 @@ section.block {
   background: #000b;
   padding: 16px
 }
-.modal .card {
+.modal .card {/*Angel*/
   max-width: 390px;
   text-align: center;
 }
-.dash-grid {/*Dhruv*/
+.dash-grid {/*ALL*/
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 13px
@@ -851,12 +851,12 @@ section.block {
 .dash-stat {
   padding: 16px
 }
-.quick {
+.quick {/*Angel*/
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 12px
 }
-.quick a {
+.quick a { /*Angel*/
   text-align: center;
   font-size: 12px;
   font-weight: 700
@@ -872,7 +872,7 @@ section.block {
   margin: auto auto 7px;
   font-style: normal
 }
-.switch {
+.switch { /*Angel*/
   width: 52px;
   height: 27px;
   background: #22c55e;
@@ -880,7 +880,7 @@ section.block {
   display: block;
   position: relative
 }
-.switch::after {
+.switch::after { /*Angel*/
   content: "";
   width: 21px;
   height: 21px;
@@ -901,16 +901,16 @@ section.block {
 .settings-row:last-child {/*Dhruv*/
   border: 0
 }
-.timeline {
+.timeline {/*Angel*/
   border-left: 2px solid #fecdd3;
   padding-left: 22px
 }
-.timeline div {
+.timeline div { /*Angel*/
   position: relative;
   padding-bottom: 20px;
   font-size: 13px
 }
-.timeline div::before {
+.timeline div::before { /*Angel*/
   content: "";
   position: absolute;
   width: 10px;
@@ -920,14 +920,14 @@ section.block {
   left: -28px;
   top: 4px
 }
-.connection {
+.connection { /*Angel*/
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap
 }
-.connection div {
+.connection div { /*Angel*/
   width: 104px;
   height: 104px;
   display: grid;
@@ -961,7 +961,7 @@ section.block {
   animation: pop .5s ease-out
 }
 /* The mobile navigation needs room at the bottom of each page. */
- .bottom-space {/* Dhruv */
+ .bottom-space {/* ALL */
   padding-bottom: 78px;
 }
 /* Small, decorative animations */
@@ -997,7 +997,7 @@ section.block {
   .nav-links {
     display: none
   }
-  .mobile-nav {
+  .mobile-nav {/*Angel*/
     display: flex;
     position: fixed;
     z-index: 20;
@@ -1024,8 +1024,7 @@ section.block {
   .nav .nav-action {
     padding: 9px 12px
   }
-  .hero {
-    padding-top: 116px
+  .hero { /*Angel*/    padding-top: 116px
   }
   .hero-grid, .split {
     grid-template-columns: 1fr
@@ -1045,7 +1044,7 @@ section.block {
   .stat-grid {
     gap: 14px
   }
-  .dash-grid, .quick {
+  .dash-grid, .quick {/*Angel*/
     grid-template-columns: repeat(2,1fr);
   }
   .bottom-space {
@@ -1074,11 +1073,11 @@ section.block {
   .steps {
     grid-template-columns: 1fr
   }
-  .section-head {
+  .section-head {/*Angel*/
     align-items: start;
     gap: 12px
   }
-  .section-head h2 {
+  .section-head h2 {/*Angel*/
     font-size: 23px
   }
   .footer-grid {
@@ -1096,7 +1095,7 @@ section.block {
   .title h1 {
     font-size: 28px
   }
-  .cta h2 {
+  .cta h2 {/*Angel*/
     font-size: 27px
   }
 }
