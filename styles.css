@@ -36,13 +36,13 @@ button, input, select, textarea {
 button {
   cursor: pointer
 }
-.container {
+.container {/*ALL*/
   width: min(1120px,calc(100% - 32px));
   margin: auto
 }
-.page {
+.page {/*ALL*/
   padding: 104px 0 68px;
-  min-height: 100vh
+  min-height: 100vh;
 }
 .eyebrow {
   display: inline-flex;
@@ -67,13 +67,13 @@ button {
   border-radius: 50%;
   animation: pulse 1.6s infinite
 }
-.logo {
+.logo {/* ALL */
   display: flex;
   align-items: center;
   gap: 10px;
   font: 800 19px "Plus Jakarta Sans"
 }
-.logo-mark {
+.logo-mark {/* ALL */
   width: 34px;
   height: 34px;
   border-radius: 11px;
@@ -83,7 +83,7 @@ button {
   color: #fff;
   box-shadow: 0 7px 18px #be123c44
 }
-.logo-mark::before {
+.logo-mark::before {/* ALL */
   content: "♥"
   /* navbar heart */
 }
@@ -93,7 +93,7 @@ button {
 
 /* Header and navigation */
 
-.topbar {/*om*/
+.topbar {/*ALL*/
   height: 68px;
   position: fixed;
   inset: 0 0 auto;
@@ -109,7 +109,7 @@ button {
   justify-content: space-between;
   gap: 25px
 }
-.nav-links {
+.nav-links {/*ALL*/
   display: flex;
   align-items: center;
   gap: 25px;
@@ -117,10 +117,10 @@ button {
   font-size: 14px;
   font-weight: 600
 }
-.nav-links a:hover, .nav-links .active {
+.nav-links a:hover, .nav-links .active {/*ALL*/
   color: var(--red)
 }
-.nav-action {
+.nav-action {/*ALL*/
   background: var(--red);
   color: #fff;
   border-radius: 12px;
@@ -129,7 +129,7 @@ button {
   font-weight: 800
 }
 .mobile-nav {
-  display: none
+  display: none;
 }
 /* Home page hero */
 .hero {
@@ -330,32 +330,32 @@ section.block {
 .offwhite {
   background: #f8fafc
 }
-.section-head {
+.section-head {/*ALL*/
   display: flex;
   justify-content: space-between;
   align-items: end;
   margin-bottom: 28px
 }
-.section-head h2 {
+.section-head h2 {/*ALL*/
   font-size: 28px
 }
-.section-head p {
+.section-head p {/*Dhruv*/
   margin: 7px 0 0;
   color: var(--muted)
 }
-.text-link {
+.text-link {/*Dhruv*/
   color: var(--red);
   font-weight: 800;
   font-size: 13px
 }
-.card {
+.card {/*Dhruv*/
   background: #fff;
   border: 1px solid #edf1f5;
   border-radius: var(--radius);
   padding: 20px;
   box-shadow: 0 2px 8px #0f172a05
 }
-.card:hover {
+.card:hover {/*Dhruv*/
   box-shadow: 0 14px 35px #c41e3a12;
   transform: translateY(-2px)
 }
@@ -373,7 +373,7 @@ section.block {
   justify-content: space-between;
   gap: 12px
 }
-.blood {
+.blood {/*Dhruv*/
   font: 800 13px "Plus Jakarta Sans";
   letter-spacing: .04em;
   color: #fff;
@@ -382,7 +382,7 @@ section.block {
   padding: 5px 9px;
   display: inline-block
 }
-.tag {
+.tag {/*Dhruv*/
   font-weight: 800;
   font-size: 11px;
   border-radius: 99px;
@@ -397,7 +397,7 @@ section.block {
   background: #f59e0b;
   color: #fff
 }
-.tag.ok {
+.tag.ok {/*Dhruv*/
   background: #dcfce7;
   color: #166534
 }
@@ -662,20 +662,20 @@ section.block {
   border-radius: 13px;
   font-size: 13px
 }
-.progress {
+.progress {/*Dhruv*/
   display: flex;
   align-items: center;
   gap: 6px;
   max-width: 720px;
   margin: 0 auto 35px
 }
-.progress span {
+.progress span {/*Dhruv*/
   height: 7px;
   flex: 1;
   border-radius: 99px;
   background: #e2e8f0
 }
-.progress span.active {
+.progress span.active {/*Dhruv*/
   background: var(--red)
 }
 .filter-row {
@@ -731,7 +731,7 @@ section.block {
   align-items: start;
   flex: 1
 }
-.verified {
+.verified {/*Dhruv*/
   font-size: 11px;
   color: var(--green);
   font-weight: 800
@@ -800,7 +800,7 @@ section.block {
 .dark-page .page {
   background: radial-gradient(circle at 50% 0,#3d2028,#0f172a 50%)
 }
-.emergency {
+.emergency {/*Dhruv*/
   background: linear-gradient(135deg,#7f1d1d,#c41e3a);
   border-radius: 24px;
   padding: 20px;
@@ -841,9 +841,9 @@ section.block {
 }
 .modal .card {
   max-width: 390px;
-  text-align: center
+  text-align: center;
 }
-.dash-grid {
+.dash-grid {/*Dhruv*/
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 13px
@@ -891,14 +891,14 @@ section.block {
   top: 3px;
   box-shadow: 0 1px 4px #0003
 }
-.settings-row {
+.settings-row {/*Dhruv*/
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 13px 0;
   border-bottom: 1px solid #f1f5f9
 }
-.settings-row:last-child {
+.settings-row:last-child {/*Dhruv*/
   border: 0
 }
 .timeline {
@@ -961,8 +961,8 @@ section.block {
   animation: pop .5s ease-out
 }
 /* The mobile navigation needs room at the bottom of each page. */
-.bottom-space {
-  padding-bottom: 78px
+ .bottom-space {/* Dhruv */
+  padding-bottom: 78px;
 }
 /* Small, decorative animations */
 @keyframes pulse {
@@ -1014,12 +1014,12 @@ section.block {
     backdrop-filter: blur(12px)
   }
   .mobile-nav a {
-    text-align: center
+    text-align: center;
   }
   .mobile-nav i {
     display: block;
     font-style: normal;
-    font-size: 18px
+    font-size: 18px;
   }
   .nav .nav-action {
     padding: 9px 12px
@@ -1046,10 +1046,10 @@ section.block {
     gap: 14px
   }
   .dash-grid, .quick {
-    grid-template-columns: repeat(2,1fr)
+    grid-template-columns: repeat(2,1fr);
   }
   .bottom-space {
-    padding-bottom: 88px
+    padding-bottom: 88px;
   }
 }
 @media(max-width:520px) {
